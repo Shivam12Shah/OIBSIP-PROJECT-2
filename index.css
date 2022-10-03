@@ -1,0 +1,104 @@
+/*font-family: 'Bungee', cursive;
+font-family: 'Courgette', cursive;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+.phot{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+}
+.head{
+    justify-content:center;
+}
+
+.phot img{
+    width: 100%;
+    z-index: 1;
+}
+.phot h3{
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    font-size: 40px;
+    z-index: 2;
+    color: rgb(150, 46, 46); 
+    font-family: 'Courgette', cursive;
+}
+.logo{
+    position: absolute;
+    z-index: 20;
+}
+.logo img{
+    width: 70px;
+    left: 80px;
+    top: 40px;
+    position: relative;
+}
+.disc{
+    width: 100%;
+    height: 200vh;
+    z-index: 40;
+    position: relative;
+    background-image: linear-gradient(to right, rgb(32,33,34) ,black);
+    display: flex;
+    flex-direction: column;
+}
+.armors{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 30px;
+    justify-content: space-around;
+}
+.dic{
+    width: 40%;
+    justify-content: center;
+}
+.dic h2{
+    font-size:30px;
+    font-family: 'Bungee', cursive;
+}
+.dic p{
+    font-family: 'Bungee', cursive;
+    line-height:18px;
+}
+.armor1{
+    width: 30%;
+}
+.armor1 img{
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+.Skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 80px;
+    justify-content: space-around;
+}
+#insp{
+    color: black;
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 120px;
+    display: inline;
+    padding-left: 40%;
+}
